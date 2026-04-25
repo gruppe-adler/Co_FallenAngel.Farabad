@@ -13,7 +13,7 @@ class mission_001_warlord
         };
         duration = 3;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_002_warlord
@@ -26,7 +26,7 @@ class mission_001_warlord
         };
         duration = 15;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_003_warlord
@@ -39,7 +39,7 @@ class mission_001_warlord
         };
         duration = 10;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_004_warlord
@@ -52,7 +52,7 @@ class mission_001_warlord
         };
         duration = 14;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_005_warlord
@@ -61,11 +61,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\005_warlord.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "WARLORD: Your primary task on station is checkpoint operations. Inspect all transports transiting the port: inbound cargo, outbound cargo, crew. [serious tone] Assume nothing. We have credible intel that hostile elements may attempt infiltration through civilian shipping."
+            0, "WARLORD: Your primary task on station is checkpoint operations. Inspect all transports transiting the port: inbound cargo, outbound cargo, crew. Assume nothing. We have credible intel that hostile elements may attempt infiltration through civilian shipping."
         };
         duration = 15;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_006_warlord
@@ -78,7 +78,7 @@ class mission_001_warlord
         };
         duration = 12;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_007_warlord
@@ -91,7 +91,7 @@ class mission_001_warlord
         };
         duration = 2;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_008_warlord
@@ -104,7 +104,7 @@ class mission_001_warlord
         };
         duration = 13;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_009_warlord
@@ -117,7 +117,7 @@ class mission_001_warlord
         };
         duration = 10;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_010_warlord
@@ -130,7 +130,7 @@ class mission_001_warlord
         };
         duration = 6;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_011_warlord
@@ -143,7 +143,7 @@ class mission_001_warlord
         };
         duration = 3;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_012_bulldog_6
@@ -152,11 +152,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\012_bulldog_6.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "BULLDOG-6: [nervous] Warlord, Bulldog-6. Troops in contact, troops in contact, grid 049054. Enemy armor, danger close, request immediate CAS, over."
+            0, "BULLDOG-6:  Warlord, Bulldog-6. Troops in contact, troops in contact, grid 049054. Enemy armor, danger close, request immediate CAS, over."
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_013_warlord
@@ -169,7 +169,7 @@ class mission_001_warlord
         };
         duration = 7;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_014_hawg_2_1
@@ -181,8 +181,8 @@ class mission_001_warlord
             0, "HAWG 2-1: Bulldog-6, Hawg 2-1, checking in as fragged. How copy?"
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_up.paa";
+        object = "Hawg";
     };
 
     class mission_015_bulldog_6
@@ -195,7 +195,7 @@ class mission_001_warlord
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_016_hawg_2_1
@@ -207,8 +207,8 @@ class mission_001_warlord
             0, "HAWG 2-1: Hawg 2-1, single-ship A-10C, posit one-five miles south, cherubs one-three, playtime one plus zero-zero. Ordnance: two by GBU-38, six by Mark-82, two AGM-65 Delta, full gun. Abort code in the clear: Saturn. Ready for situation update."
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_up.paa";
+        object = "Hawg";
     };
 
     class mission_017_bulldog_6
@@ -221,7 +221,7 @@ class mission_001_warlord
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_018_bulldog_6
@@ -234,7 +234,7 @@ class mission_001_warlord
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_019_hawg_2_1
@@ -246,8 +246,8 @@ class mission_001_warlord
             0, "HAWG 2-1: Hawg 2-1 copies Type 2, single attack, guns only, danger close, initials Romeo Golf Bravo. Ready to copy."
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_up.paa";
+        object = "Hawg";
     };
 
     class mission_020_bulldog_6
@@ -260,7 +260,7 @@ class mission_001_warlord
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_021_hawg_2_1
@@ -272,8 +272,8 @@ class mission_001_warlord
             0, "HAWG 2-1: Hawg 2-1 copies. Target elevation two-zero feet, target grid 052055. Restrictions: danger close, friendlies three hundred meters southwest behind wall marked VS-17 panel, final attack heading one-three-zero to one-two-zero."
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_up.paa";
+        object = "Hawg";
     };
 
     class mission_022_bulldog_6
@@ -286,7 +286,7 @@ class mission_001_warlord
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_023_hawg_2_1
@@ -298,8 +298,8 @@ class mission_001_warlord
             0, "HAWG 2-1: Hawg 2-1 is IP inbound."
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_up.paa";
+        object = "Hawg";
     };
 
     class mission_024_hawg_2_1
@@ -308,11 +308,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\024_hawg_2_1.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "HAWG 2-1: [focused] Hawg 2-1, tally target, captured. Single BMP, in the open, on bare ground northeast of the city."
+            0, "HAWG 2-1: Hawg 2-1, tally target, captured. Single BMP, in the open, on bare ground northeast of the city."
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_up.paa";
+        object = "Hawg";
     };
 
     class mission_025_bulldog_6
@@ -325,7 +325,7 @@ class mission_001_warlord
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_026_hawg_2_1
@@ -337,8 +337,8 @@ class mission_001_warlord
             0, "HAWG 2-1: Visual friendlies, VS-17 panel in sight."
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_up.paa";
+        object = "Hawg";
     };
 
     class mission_027_bulldog_6
@@ -351,7 +351,7 @@ class mission_001_warlord
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_028_hawg_2_1
@@ -363,8 +363,8 @@ class mission_001_warlord
             0, "HAWG 2-1: Hawg 2-1, in from the southea—"
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_up.paa";
+        object = "Hawg";
     };
 
     class mission_029_hawg_2_1
@@ -373,11 +373,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\029_hawg_2_1.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "HAWG 2-1: [panicked] MAYDAY, MAYDAY, MAYDAY — Hawg 2-1 is hit! SAM impact left engine, I've lost number one, I've got fire warning!"
+            0, "HAWG 2-1: MAYDAY, MAYDAY, MAYDAY — Hawg 2-1 is hit! SAM impact left engine, I've lost number one, I've got fire warning!"
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_up.paa";
+        object = "Hawg";
     };
 
     class mission_030_bulldog_6
@@ -390,7 +390,7 @@ class mission_001_warlord
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_031_hawg_2_1
@@ -399,11 +399,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\031_hawg_2_1.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "HAWG 2-1: [nervous] Hawg 2-1 squawking seven-seven-zero-zero. Losing hydraulics, she's not responding, I'm heading for the mountains. [tense] If I lose her, I'm punching out over the high ground. Hawg 2-1."
+            0, "HAWG 2-1:  Hawg 2-1 squawking seven-seven-zero-zero. Losing hydraulics, she's not responding, I'm heading for the mountains.  If I lose her, I'm punching out over the high ground. Hawg 2-1."
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_up.paa";
+        object = "Hawg";
     };
 
     class mission_032_hawg_2_1
@@ -412,11 +412,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\032_hawg_2_1.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "HAWG 2-1: [panicked] Hawg 2-1, MAYDAY, MAYDAY fire's out of control, ejecting, ejecting, ejecti—"
+            0, "HAWG 2-1: Hawg 2-1, MAYDAY, MAYDAY fire's out of control, ejecting, ejecting, ejecti—"
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_up.paa";
+        object = "Hawg";
     };
 
     class mission_033_bulldog_6
@@ -425,11 +425,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\033_bulldog_6.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "BULLDOG-6: [urgent] Warlord, Bulldog-6, FLASH traffic. Hawg 2-1 is down, I say again, Hawg 2-1 is down. Aircraft broke up post-SAM impact, one good chute observed. Impact vicinity northern half of grid 0705. No visual on pilot post-canopy, over."
+            0, "BULLDOG-6: Warlord, Bulldog-6, FLASH traffic. Hawg 2-1 is down, I say again, Hawg 2-1 is down. Aircraft broke up post-SAM impact, one good chute observed. Impact vicinity northern half of grid 0705. No visual on pilot post-canopy, over."
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_034_warlord
@@ -442,7 +442,7 @@ class mission_001_warlord
         };
         duration = 7;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_035_warlord
@@ -451,11 +451,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\035_warlord.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "WARLORD: Alpha, Wolfpack, this is Warlord. [serious tone] Priority tasking, break off current operations."
+            0, "WARLORD: Alpha, Wolfpack, this is Warlord. Priority tasking, break off current operations."
         };
         duration = 5;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_036_warlord
@@ -468,7 +468,7 @@ class mission_001_warlord
         };
         duration = 12;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_037_warlord
@@ -477,11 +477,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\037_warlord.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "WARLORD: Alpha, mission is personnel recovery. Locate the wreckage, locate the pilot. [serious tone] Critical task: recover the aircraft's IFF transponder. That device cannot, I say again, cannot fall into enemy hands. If you cannot recover, you will destroy it in place with demolitions."
+            0, "WARLORD: Alpha, mission is personnel recovery. Locate the wreckage, locate the pilot. Critical task: recover the aircraft's IFF transponder. That device cannot, I say again, cannot fall into enemy hands. If you cannot recover, you will destroy it in place with demolitions."
         };
         duration = 16;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_038_warlord
@@ -490,11 +490,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\038_warlord.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "WARLORD: [serious tone] Be advised, the SAM site that engaged Hawg 2-1 is still active. Grid location unknown at this time."
+            0, "WARLORD: Be advised, the SAM site that engaged Hawg 2-1 is still active. Grid location unknown at this time."
         };
         duration = 6;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_039_warlord
@@ -503,11 +503,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\039_warlord.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "WARLORD: Wolfpack, fly nap-of-the-earth. Stay masked behind the mountain ridges for your entire ingress. [serious tone] Do not, I say again, do not expose yourself on the ridgelines until the SAM threat is neutralized."
+            0, "WARLORD: Wolfpack, fly nap-of-the-earth. Stay masked behind the mountain ridges for your entire ingress. Do not, I say again, do not expose yourself on the ridgelines until the SAM threat is neutralized."
         };
         duration = 10;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_040_warlord
@@ -520,7 +520,7 @@ class mission_001_warlord
         };
         duration = 2;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_041_bulldog_6
@@ -529,11 +529,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\041_bulldog_6.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "BULLDOG-6: [excited] Warlord, Bulldog-6. I have eyes-on the SAM site that engaged Hawg 2-1. SA-class TEL with associated radar vehicle and two security vehicles, stationary in the open, grid 040053. Requesting surface-to-surface fires from Neptune for target destruction, over."
+            0, "BULLDOG-6: Warlord, Bulldog-6. I have eyes-on the SAM site that engaged Hawg 2-1. SA-class TEL with associated radar vehicle and two security vehicles, stationary in the open, grid 040053. Requesting surface-to-surface fires from Neptune for target destruction, over."
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_042_warlord
@@ -546,7 +546,7 @@ class mission_001_warlord
         };
         duration = 2;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_043_warlord
@@ -559,7 +559,7 @@ class mission_001_warlord
         };
         duration = 16;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_044_bulldog_6
@@ -572,7 +572,7 @@ class mission_001_warlord
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_045_neptune
@@ -585,7 +585,7 @@ class mission_001_warlord
         };
         duration = 2;
         avatar = "user\rscMessage\neptune.paa";
-        object = "neptune";
+        object = "Neptune";
     };
 
     class mission_046_bulldog_6
@@ -598,7 +598,7 @@ class mission_001_warlord
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_047_neptune
@@ -611,7 +611,7 @@ class mission_001_warlord
         };
         duration = 12;
         avatar = "user\rscMessage\neptune.paa";
-        object = "neptune";
+        object = "Neptune";
     };
 
     class mission_048_bulldog_6
@@ -624,7 +624,7 @@ class mission_001_warlord
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_049_neptune
@@ -637,7 +637,7 @@ class mission_001_warlord
         };
         duration = 2;
         avatar = "user\rscMessage\neptune.paa";
-        object = "neptune";
+        object = "Neptune";
     };
 
     class mission_050_bulldog_6
@@ -650,7 +650,7 @@ class mission_001_warlord
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_051_neptune
@@ -663,7 +663,7 @@ class mission_001_warlord
         };
         duration = 4;
         avatar = "user\rscMessage\neptune.paa";
-        object = "neptune";
+        object = "Neptune";
     };
 
     class mission_052_bulldog_6
@@ -676,7 +676,7 @@ class mission_001_warlord
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_053_neptune
@@ -689,7 +689,7 @@ class mission_001_warlord
         };
         duration = 1;
         avatar = "user\rscMessage\neptune.paa";
-        object = "neptune";
+        object = "Neptune";
     };
 
     class mission_054_bulldog_6
@@ -702,7 +702,7 @@ class mission_001_warlord
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_055_bulldog_6
@@ -711,11 +711,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\055_bulldog_6.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "BULLDOG-6: [satisfied] Neptune, Bulldog-6. End of mission. Target destroyed — launcher and radar vehicle are scrap, two secondary explosions confirm ordnance cook-off. Good effect, over."
+            0, "BULLDOG-6: Neptune, Bulldog-6. End of mission. Target destroyed — launcher and radar vehicle are scrap, two secondary explosions confirm ordnance cook-off. Good effect, over."
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_056_neptune
@@ -728,7 +728,7 @@ class mission_001_warlord
         };
         duration = 6;
         avatar = "user\rscMessage\neptune.paa";
-        object = "neptune";
+        object = "Neptune";
     };
 
     class mission_057_warlord
@@ -741,7 +741,7 @@ class mission_001_warlord
         };
         duration = 10;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_058_hawg_2_1
@@ -750,11 +750,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\058_hawg_2_1.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "HAWG 2-1: [exhausted] Any station, any station, this is Hawg 2-1, transmitting in the blind on Guard."
+            0, "HAWG 2-1: Any station, any station, this is Hawg 2-1, transmitting in the blind on Guard."
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_down.paa";
+        object = "Hawg";
     };
 
     class mission_059_hawg_2_1
@@ -763,11 +763,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\059_hawg_2_1.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "HAWG 2-1: [tired] Survival radio took shrapnel on ejection. Battery is cracked — I've got maybe twenty percent. Keeping transmissions short."
+            0, "HAWG 2-1: Survival radio took shrapnel on ejection. Battery is cracked — I've got maybe twenty percent. Keeping transmissions short."
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_down.paa";
+        object = "Hawg";
     };
 
     class mission_060_hawg_2_1
@@ -776,11 +776,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\060_hawg_2_1.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "HAWG 2-1: [nervous] I am on the ground, mobile, injured but ambulatory. Enemy patrols sweeping the crash site and working outward. I can hear vehicles."
+            0, "HAWG 2-1:  I am on the ground, mobile, injured but ambulatory. Enemy patrols sweeping the crash site and working outward. I can hear vehicles."
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_down.paa";
+        object = "Hawg";
     };
 
     class mission_061_hawg_2_1
@@ -789,11 +789,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\061_hawg_2_1.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "HAWG 2-1: [tense] Moving to a mining complex at my location, signs read Shen Yak. I'll hole up inside. Requesting immediate evac. Found blasting charges en route — if they find the entrance, I'll drop the tunnel behind me and find another way out."
+            0, "HAWG 2-1:  Moving to a mining complex at my location, signs read Shen Yak. I'll hole up inside. Requesting immediate evac. Found blasting charges en route — if they find the entrance, I'll drop the tunnel behind me and find another way out."
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_down.paa";
+        object = "Hawg";
     };
 
     class mission_062_hawg_2_1
@@ -805,8 +805,8 @@ class mission_001_warlord
             0, "HAWG 2-1: Going dark to conserve battery. Will transmit when I can. Hawg 2-1, out."
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_down.paa";
+        object = "Hawg";
     };
 
     class mission_063_hawg_2_1
@@ -815,11 +815,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\063_hawg_2_1.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "HAWG 2-1: [tired] Any station, any station, this is Hawg 2-1, transmitting in the blind."
+            0, "HAWG 2-1: Any station, any station, this is Hawg 2-1, transmitting in the blind."
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_down.paa";
+        object = "Hawg";
     };
 
     class mission_064_hawg_2_1
@@ -831,8 +831,8 @@ class mission_001_warlord
             0, "HAWG 2-1: I'm out of the mine. Couldn't transmit underground, rock killed the signal."
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_down.paa";
+        object = "Hawg";
     };
 
     class mission_065_hawg_2_1
@@ -844,8 +844,8 @@ class mission_001_warlord
             0, "HAWG 2-1: Found an abandoned civilian pickup in one of the service tunnels, hot-wired it, drove through the mine system. My GPS beacon pings grid 036085."
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_down.paa";
+        object = "Hawg";
     };
 
     class mission_066_hawg_2_1
@@ -854,11 +854,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\066_hawg_2_1.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "HAWG 2-1: [nervous] I have a problem. I'm sitting in the vehicle approximately fifty meters short of the exit. I can see hostiles dug in at the mouth, fire-team plus, at least one crew-served. They figured out where the tunnel comes out. [frustrated] I cannot punch through alone."
+            0, "HAWG 2-1:  I have a problem. I'm sitting in the vehicle approximately fifty meters short of the exit. I can see hostiles dug in at the mouth, fire-team plus, at least one crew-served. They figured out where the tunnel comes out. [frustrated] I cannot punch through alone."
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_down.paa";
+        object = "Hawg";
     };
 
     class mission_067_hawg_2_1
@@ -870,8 +870,8 @@ class mission_001_warlord
             0, "HAWG 2-1: [desperate] If anyone is in range, I need a pickup at my beacon. Going dark again. Hawg 2-1, out."
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_down.paa";
+        object = "Hawg";
     };
 
     class mission_068_hawg_2_1
@@ -880,11 +880,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\068_hawg_2_1.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "HAWG 2-1: [panicked] Hawg 2-1, in the blind, in the blind, I am compromised! I am compromised!"
+            0, "HAWG 2-1: Hawg 2-1, in the blind, in the blind, I am compromised! I am compromised!"
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_down.paa";
+        object = "Hawg";
     };
 
     class mission_069_hawg_2_1
@@ -893,11 +893,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\069_hawg_2_1.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "HAWG 2-1: [panicked] They spotted me! I'm breaking out, I'm in the truck, two technicals on my six, they are on my bumper, I cannot shake them!"
+            0, "HAWG 2-1: They spotted me! I'm breaking out, I'm in the truck, two technicals on my six, they are on my bumper, I cannot shake them!"
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_down.paa";
+        object = "Hawg";
     };
 
     class mission_070_hawg_2_1
@@ -906,11 +906,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\070_hawg_2_1.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "HAWG 2-1: [shouting] Alpha, Wolfpack, if you are hearing this, I need you here ASAP!"
+            0, "HAWG 2-1:  Alpha, Wolfpack, if you are hearing this, I need you here ASAP!"
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_down.paa";
+        object = "Hawg";
     };
 
     class mission_071_hawg_2_1
@@ -919,11 +919,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\071_hawg_2_1.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "HAWG 2-1: [panicked] Do — do not engage the lead vehicle, lead vehicle is me, I say again, the LEAD vehicle is me! Everything behind me is hostile! Hawg 2-1, out!"
+            0, "HAWG 2-1: Do — do not engage the lead vehicle, lead vehicle is me, I say again, the LEAD vehicle is me! Everything behind me is hostile! Hawg 2-1, out!"
         };
         duration = 0;
-        avatar = "user\rscMessage\hawg.paa";
-        object = "hawg_21";
+        avatar = "user\rscMessage\hawg_down.paa";
+        object = "Hawg";
     };
 
     class mission_072_warlord
@@ -932,11 +932,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\072_warlord.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "WARLORD: [proud] Alpha, Wolfpack, this is Warlord. Outstanding work. Hawg 2-1 is back in friendly hands. That's a pilot who goes home because of what you did today. Well done, all elements."
+            0, "WARLORD: Alpha, Wolfpack, this is Warlord. Outstanding work. Hawg 2-1 is back in friendly hands. That's a pilot who goes home because of what you did today. Well done, all elements."
         };
         duration = 9;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_073_warlord
@@ -949,7 +949,7 @@ class mission_001_warlord
         };
         duration = 7;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_074_warlord
@@ -958,11 +958,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\074_warlord.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "WARLORD: [somber] Alpha, Wolfpack, this is Warlord. I've received the report that Hawg 2-1 did not make it."
+            0, "WARLORD: Alpha, Wolfpack, this is Warlord. I've received the report that Hawg 2-1 did not make it."
         };
         duration = 5;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_075_warlord
@@ -971,11 +971,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\075_warlord.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "WARLORD: [somber] Understood that you reached him, and understood the circumstances. You did everything that could be done out there."
+            0, "WARLORD: Understood that you reached him, and understood the circumstances. You did everything that could be done out there."
         };
         duration = 5;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_076_warlord
@@ -988,7 +988,7 @@ class mission_001_warlord
         };
         duration = 7;
         avatar = "user\rscMessage\warlord.paa";
-        object = "warlord";
+        object = "Warlord";
     };
 
     class mission_077_bulldog_6
@@ -1001,7 +1001,7 @@ class mission_001_warlord
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_078_bulldog_6
@@ -1010,11 +1010,11 @@ class mission_001_warlord
         sound[] = { "USER\sounds\078_bulldog_6.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "BULLDOG-6: [urgent] Bulldog is decisively engaged in the central district of Farabad. SIGINT just passed me a reinforced enemy platoon maneuvering on my southern flank. If they set up, they will roll us up. [frustrated] I do not have the combat power to refuse my flank and hold the fight in the north."
+            0, "BULLDOG-6: Bulldog is decisively engaged in the central district of Farabad. SIGINT just passed me a reinforced enemy platoon maneuvering on my southern flank. If they set up, they will roll us up. [frustrated] I do not have the combat power to refuse my flank and hold the fight in the north."
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_079_bulldog_6
@@ -1027,7 +1027,7 @@ class mission_001_warlord
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_080_bulldog_6
@@ -1040,7 +1040,7 @@ class mission_001_warlord
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };
 
     class mission_081_bulldog_6
@@ -1049,9 +1049,9 @@ class mission_001_warlord
         sound[] = { "USER\sounds\081_bulldog_6.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "BULLDOG-6: [tired] I know you did not sign up to be my every-problem button today, but you are the only card I have left. Good hunting. Bulldog-6 out."
+            0, "BULLDOG-6: I know you did not sign up to be my every-problem button today, but you are the only card I have left. Good hunting. Bulldog-6 out."
         };
         duration = 0;
         avatar = "user\rscMessage\bulldog.paa";
-        object = "bulldog_6";
+        object = "Bulldog";
     };

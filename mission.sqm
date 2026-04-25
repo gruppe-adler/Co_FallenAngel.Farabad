@@ -8,7 +8,7 @@ class EditorData
 	toggles=9;
 	class ItemIDProvider
 	{
-		nextID=2219;
+		nextID=2235;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=309;
+		nextID=333;
 	};
 	class Camera
 	{
-		pos[]={7958.7251,15.536724,827.5647};
-		dir[]={0.22999983,-0.36754861,0.901115};
-		up[]={0.090898633,0.9300043,0.35613123};
-		aside[]={0.96893638,0,-0.24731049};
+		pos[]={5028.7715,165.33006,5840.6313};
+		dir[]={-0.43709013,-0.39883724,0.80615205};
+		up[]={-0.19010216,0.91702169,0.35061705};
+		aside[]={0.87909806,0,0.47664094};
 	};
 };
 binarizationWanted=0;
@@ -78,13 +78,14 @@ addons[]=
 	"UK3CB_Factions_CW_US_B_LATE",
 	"A3_Characters_F_Common",
 	"A3_Static_F_Sams_SAM_System_04",
-	"A3_Static_F_Sams_Radar_System_02"
+	"A3_Static_F_Sams_Radar_System_02",
+	"A3_Structures_F_Mil_Radar"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=46;
+		items=47;
 		class Item0
 		{
 			className="A3_Modules_F_Heli";
@@ -382,6 +383,13 @@ class AddonsMetaData
 		{
 			className="A3_Static_F_Sams";
 			name="Arma 3 Sams - Turrets";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item46
+		{
+			className="A3_Structures_F_Mil";
+			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -4285,7 +4293,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=195;
+		items=200;
 		class Item0
 		{
 			dataType="Layer";
@@ -13954,7 +13962,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4056.7227,6.556077,5329.6235};
-				angles[]={-0,2.8527498,-0};
+				angles[]={0,2.8527498,0};
 			};
 			side="Empty";
 			flags=4;
@@ -13978,6 +13986,103 @@ class Mission
 			id=2218;
 			type="EmptyDetectorAreaR250";
 			atlOffset=9.6079998;
+		};
+		class Item195
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4768.6821,19.252001,5124.396};
+			};
+			name="smoke_1";
+			init="if (isServer) then { createVehicle ['test_EmptyObjectForSmoke',getpos this,[],0,'can_collide']; };";
+			id=2220;
+			type="Logic";
+			atlOffset=2.7576275;
+		};
+		class Item196
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4881.229,15.174397,4628.3086};
+			};
+			name="smoke_2";
+			init="if (isServer) then { createVehicle ['test_EmptyObjectForSmoke',getpos this,[],0,'can_collide']; };";
+			id=2221;
+			type="Logic";
+			atlOffset=3.3276701;
+		};
+		class Item197
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4875.0327,11.99851,4631.6133};
+			};
+			areaSize[]={5,-1,5};
+			flags=1;
+			id=2230;
+			type="ModuleHideTerrainObjects_F";
+			atlOffset=4.2067308;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=15;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item198
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4877.814,17.028376,4658.562};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=2233;
+			type="Land_Radar_ruins_F";
+			atlOffset=-4.7683716e-07;
+		};
+		class Item199
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4875.6362,4.1399999,4660.1406};
+			};
+			name="smoke_3";
+			init="if (isServer) then { createVehicle ['test_EmptyObjectForSmoke',getpos this,[],0,'can_collide']; };";
+			id=2234;
+			type="Logic";
 		};
 	};
 	class Connections

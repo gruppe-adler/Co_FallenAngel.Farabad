@@ -9,3 +9,5 @@ class FA {
     #include "functions\planeCrash\cfgFunctions.hpp"
     #include "functions\zeusModules\cfgFunctions.hpp"
 };
+
+#include "ambient\cfgFunctions.hpp"

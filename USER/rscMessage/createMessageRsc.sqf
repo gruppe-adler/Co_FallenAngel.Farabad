@@ -57,8 +57,11 @@ _ctrlAdditionalText ctrlCommit 0;
 */
 
 private _textWidth = ctrlTextWidth _ctrlMessage;
-_ctrlMessage ctrlSetPosition [BOX_W, safeZoneH - BOX_H/1.5, safeZoneW, BOX_H];
+_ctrlMessage ctrlSetPosition [safeZoneW, safeZoneH - BOX_H/1.7, _textWidth, BOX_H];
 _ctrlMessage ctrlCommit 0;
+
+_ctrlMessage ctrlSetPosition [safeZoneW-_textWidth, safeZoneH - BOX_H/1.5, _textWidth, BOX_H];
+_ctrlMessage ctrlCommit _duration/2;
 
 private _ctrlImage = _display ctrlCreate ["RscPicture", -1, _ctrlGroup];
 _ctrlImage ctrlSetPosition [0, safeZoneH - BOX_H, BOX_W, BOX_H];
@@ -67,7 +70,11 @@ _ctrlImage ctrlSetText _avatarPic;
 
 _ctrlImage ctrlCommit 0;
 
-player createDiaryRecord ["Diary", [name _unit + " - " + ([dayTime, "HH:MM"] call BIS_fnc_timeToString), _message], taskNull, "NONE", true];
+if (typeName _unit == "STRING") then {
+	player createDiaryRecord ["Diary", [_unit + " - " + ([dayTime, "HH:MM"] call BIS_fnc_timeToString), _message], taskNull, "NONE", true];
+} else {
+	player createDiaryRecord ["Diary", [name _unit + " - " + ([dayTime, "HH:MM"] call BIS_fnc_timeToString), _message], taskNull, "NONE", true];
+};
 
 // playSoundUI ["remote_start"];
 
@@ -81,7 +88,7 @@ if (_sound == "none") then {
 		};
 	};
 } else {
-	if (!isNull _unit && {player distance _unit < 10} && {vehicle player == player} || !isNull remoteControlled player) then {
+	if (typeName _unit != "STRING" && {!isNull _unit} && {player distance _unit < 10} && {vehicle player == player} || !isNull remoteControlled player) then {
 		if (isGameFocused) then {
 			_soundID = _unit say3d [_sound, 150];
 			_unit setRandomLip true;
@@ -108,7 +115,7 @@ if (_sound == "none") then {
 
 	// playSound "remote_end";
 
-	if (!isNull _unit) then {
+	if (typeName _unit != "STRING" && {!isNull _unit}) then {
 		_unit setRandomLip false;
 	};
 };
