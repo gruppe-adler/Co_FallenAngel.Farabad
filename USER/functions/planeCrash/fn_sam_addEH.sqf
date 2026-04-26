@@ -18,3 +18,7 @@ FA_SAM addEventHandler ["Fired",
 		] call CBA_fnc_waitAndExecute;
 	}
 ];
+
+{
+    _x hideObjectGlobal true;
+} forEach (allUnits inAreaArray trg_crashsite_opfor);

@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8438.0137,33.707771,704.62488};
-		dir[]={-0.69845867,-0.645486,-0.30906555};
-		up[]={-0.59028405,0.76376653,-0.26119813};
-		aside[]={-0.40465337,2.153829e-07,0.91447836};
+		pos[]={6612.624,99.847488,6625.4106};
+		dir[]={0.76552773,-0.38923836,-0.51233935};
+		up[]={0.32348448,0.9211362,-0.21649693};
+		aside[]={-0.55620307,-3.3347169e-07,-0.83106446};
 	};
 };
 binarizationWanted=0;
@@ -7952,6 +7952,7 @@ class Mission
 			};
 			class Attributes
 			{
+				behaviour="SAFE";
 			};
 			id=1955;
 		};
@@ -20157,7 +20158,6 @@ class Mission
 			{
 				name="trg_crashsite_opfor";
 				condition="true";
-				onActivation="{ _x hideObjectGlobal false; } forEach thislist;";
 				sizeA=250;
 				sizeB=250;
 				isServerOnly=1;
