@@ -21,6 +21,14 @@ class arabicsong3   {
         titles[] = {0, ""};
     };
 
+
+class buzz
+{
+    name = "buzz";
+    sound[] = {"USER\sounds\buzz.ogg", 1, 1, 50};
+    titles[] = {0,""};
+};
+
 class mission_001_warlord
     {
         name = "mission_001_warlord";

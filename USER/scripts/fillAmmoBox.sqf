@@ -9,14 +9,14 @@ clearBackpackCargoGlobal _box;
 
 
 private _magazines = [
-    ["30Rnd_556x45_Stanag", 200],
-    ["rhs_200rnd_556x45_M_SAW", 30],
-    ["rhs_weap_M136", 10],
-    ["SmokeShell", 40],
-    ["1Rnd_SmokeRed_Grenade_shell", 30],
-    ["1Rnd_Smoke_Grenade_shell", 30],
-    ["1Rnd_SmokeBlue_Grenade_shell", 30],
-    ["HandGrenade", 30]
+    ["30Rnd_556x45_Stanag", 50],
+    ["rhs_200rnd_556x45_M_SAW", 10],
+    ["rhs_weap_M136", 6],
+    ["SmokeShell", 10],
+    ["1Rnd_SmokeRed_Grenade_shell", 10],
+    ["1Rnd_Smoke_Grenade_shell", 10],
+    ["1Rnd_SmokeBlue_Grenade_shell", 10],
+    ["HandGrenade", 10]
 ];
 
 {	
