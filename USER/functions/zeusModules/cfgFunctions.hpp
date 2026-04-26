@@ -9,6 +9,7 @@ class FA_Zeus {
 	
 	class transmission_01_briefing;
 	class transmission_02_tasking;
+	class transmission_02b_taskRTB;
 	class transmission_03_casrequest;
 	class transmission_04_aircraftcheckin;
 	class transmission_05_gameplan;

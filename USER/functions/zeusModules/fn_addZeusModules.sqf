@@ -105,6 +105,11 @@
     [] remoteExec ["FA_fnc_transmission_02_tasking", [0, -2] select isDedicated];
 }] call zen_custom_modules_fnc_register;
 
+["Fallen Angel - Transmissions", "02b After Vessel RTB", {
+    params ["_position", "_object"];
+    [] remoteExec ["FA_fnc_transmission_02b_taskRTB", [0, -2] select isDedicated];
+}] call zen_custom_modules_fnc_register;
+
 ["Fallen Angel - Transmissions", "03 CAS Request", {
     params ["_position", "_object"];
     [] remoteExec ["FA_fnc_transmission_03_casrequest", [0, -2] select isDedicated];
