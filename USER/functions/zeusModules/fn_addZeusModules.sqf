@@ -83,12 +83,12 @@
 
 
 
-["Fallen Angel - Transmissions", "00 Generic COPY THAT", {
+["Fallen Angel - Transmissions", "00 SEND IT", {
     params ["_position", "_object"];
     [] remoteExec ["FA_fnc_transmission_00_copy", [0, -2] select isDedicated];
 }] call zen_custom_modules_fnc_register;
 
-["Fallen Angel - Transmissions", "00 Generic STANDBY", {
+["Fallen Angel - Transmissions", "00 COPY THAT, STAND BY", {
     params ["_position", "_object"];
     [] remoteExec ["FA_fnc_transmission_00_standby", [0, -2] select isDedicated];
 }] call zen_custom_modules_fnc_register;
