@@ -8,7 +8,7 @@ class EditorData
 	toggles=10;
 	class ItemIDProvider
 	{
-		nextID=2616;
+		nextID=2620;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={6612.624,99.847488,6625.4106};
-		dir[]={0.76552773,-0.38923836,-0.51233935};
-		up[]={0.32348448,0.9211362,-0.21649693};
-		aside[]={-0.55620307,-3.3347169e-07,-0.83106446};
+		pos[]={10857.296,37.664368,-854.39703};
+		dir[]={0.60282087,-0.58199888,-0.54581159};
+		up[]={0.43143392,0.81318414,-0.39063326};
+		aside[]={-0.67119491,9.6028089e-08,-0.74129939};
 	};
 };
 binarizationWanted=0;
@@ -4565,7 +4565,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=351;
+		items=353;
 		class Item0
 		{
 			dataType="Layer";
@@ -5891,6 +5891,7 @@ class Mission
 					{
 						description="SQL@Wolfpack";
 						isPlayer=1;
+						isPlayable=1;
 					};
 					id=1516;
 					type="B_Soldier_SL_F";
@@ -5952,6 +5953,7 @@ class Mission
 					class Attributes
 					{
 						description="FTL@Alpha";
+						isPlayable=1;
 					};
 					id=1518;
 					type="B_Soldier_TL_F";
@@ -5998,6 +6000,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						isPlayable=1;
 					};
 					id=1519;
 					type="B_soldier_LAT_F";
@@ -6013,6 +6016,7 @@ class Mission
 					flags=1;
 					class Attributes
 					{
+						isPlayable=1;
 					};
 					id=1520;
 					type="B_soldier_exp_F";
@@ -6030,6 +6034,7 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
+						isPlayable=1;
 					};
 					id=1521;
 					type="B_medic_F";
@@ -6076,6 +6081,7 @@ class Mission
 					flags=1;
 					class Attributes
 					{
+						isPlayable=1;
 					};
 					id=1522;
 					type="B_soldier_AR_F";
@@ -6107,6 +6113,7 @@ class Mission
 					class Attributes
 					{
 						description="FTL@Bravo";
+						isPlayable=1;
 					};
 					id=1542;
 					type="B_Soldier_TL_F";
@@ -6153,6 +6160,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						isPlayable=1;
 					};
 					id=1543;
 					type="B_soldier_LAT_F";
@@ -6168,6 +6176,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						isPlayable=1;
 					};
 					id=1544;
 					type="B_soldier_exp_F";
@@ -6184,6 +6193,7 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
+						isPlayable=1;
 					};
 					id=1545;
 					type="B_medic_F";
@@ -6230,6 +6240,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						isPlayable=1;
 					};
 					id=1546;
 					type="B_soldier_AR_F";
@@ -6261,6 +6272,7 @@ class Mission
 					class Attributes
 					{
 						description="Pilot@Wolfpack-3";
+						isPlayable=1;
 					};
 					id=1550;
 					type="B_Helipilot_F";
@@ -6323,6 +6335,7 @@ class Mission
 					class Attributes
 					{
 						description="Pilot@Wolfpack-2";
+						isPlayable=1;
 					};
 					id=1552;
 					type="B_Helipilot_F";
@@ -6385,6 +6398,7 @@ class Mission
 					class Attributes
 					{
 						description="Pilot@Wolfpack-1";
+						isPlayable=1;
 					};
 					id=1554;
 					type="B_Helipilot_F";
@@ -6446,6 +6460,7 @@ class Mission
 					class Attributes
 					{
 						description="FTL@Charlie";
+						isPlayable=1;
 					};
 					id=1556;
 					type="B_Soldier_TL_F";
@@ -6505,6 +6520,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						isPlayable=1;
 					};
 					id=1557;
 					type="B_soldier_LAT_F";
@@ -6520,6 +6536,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						isPlayable=1;
 					};
 					id=1558;
 					type="B_soldier_exp_F";
@@ -6536,6 +6553,7 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
+						isPlayable=1;
 					};
 					id=1559;
 					type="B_medic_F";
@@ -6582,6 +6600,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						isPlayable=1;
 					};
 					id=1560;
 					type="B_soldier_AR_F";
@@ -20164,6 +20183,130 @@ class Mission
 			};
 			id=2615;
 			type="EmptyDetectorAreaR250";
+		};
+		class Item351
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10870.379,23.530073,-865.07404};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						description="Zeus";
+						isPlayable=1;
+					};
+					id=2617;
+					type="B_Soldier_SL_F";
+					atlOffset=0.00019073486;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2616;
+			atlOffset=0.00019073486;
+		};
+		class Item352
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10868.65,23.5299,-862.96704};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						description="Zeus";
+						isPlayable=1;
+					};
+					id=2619;
+					type="B_Soldier_SL_F";
+					atlOffset=1.7166138e-05;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2618;
+			atlOffset=1.7166138e-05;
 		};
 	};
 	class Connections
