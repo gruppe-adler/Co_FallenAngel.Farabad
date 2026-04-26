@@ -18,7 +18,7 @@
 */
 
 
-loadoutFactionBlu = "";
+loadoutFactionBlu = "USUCP";
 loadoutFactionOpf = "";
 loadoutFactionInd = "";
 
