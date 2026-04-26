@@ -83,6 +83,17 @@
 
 
 
+["Fallen Angel - Transmissions", "00 Generic COPY THAT", {
+    params ["_position", "_object"];
+    [] remoteExec ["FA_fnc_transmission_00_copy", [0, -2] select isDedicated];
+}] call zen_custom_modules_fnc_register;
+
+["Fallen Angel - Transmissions", "00 Generic STANDBY", {
+    params ["_position", "_object"];
+    [] remoteExec ["FA_fnc_transmission_00_standby", [0, -2] select isDedicated];
+}] call zen_custom_modules_fnc_register;
+
+
 
 ["Fallen Angel - Transmissions", "01 Briefing", {
     params ["_position", "_object"];
@@ -172,4 +183,10 @@
 ["Fallen Angel - Transmissions", "17 Final Tasking", {
     params ["_position", "_object"];
     [] remoteExec ["FA_fnc_transmission_17_finalTask", [0, -2] select isDedicated];
+}] call zen_custom_modules_fnc_register;
+
+
+["Fallen Angel - Transmissions", "99 MISSION COMPLETE", {
+    params ["_position", "_object"];
+    [] remoteExec ["FA_fnc_transmission_99_rtb", [0, -2] select isDedicated];
 }] call zen_custom_modules_fnc_register;

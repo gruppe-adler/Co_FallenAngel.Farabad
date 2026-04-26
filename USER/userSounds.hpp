@@ -145,6 +145,18 @@ class mission_001_warlord
         object = "Warlord";
     };
 
+    class mission_010b_warlord {
+        name = "mission_010b_warlord";
+        sound[] = { "USER\sounds\010b_warlord.ogg", 2, 1, 100 };
+        titles[] = {0, ""};
+        customsubtitle[] = {
+            0, "Wolfpack, Warlord. Good copy. Vessel inspected, nothing actionable found. Doesn't mean the intel was wrong — means we didn't find it, or it wasn't there. Either way, you did your job.  Break off and RTB to the carrier. Stand by for further tasking on arrival. Warlord out."
+        };
+        duration = 6;
+        avatar = "user\rscMessage\warlord.paa";
+        object = "Warlord";
+    };
+
     class mission_011_warlord
     {
         name = "mission_011_warlord";
@@ -270,7 +282,7 @@ class mission_001_warlord
         customsubtitle[] = {
             0, "IP Checkpoint Alpha, heading three-one-five, offset left, distance two, target elevation two-zero feet, target description BMP-2 stationary in the open, target location grid 052055, mark type Willy Pete, friendlies three hundred meters southwest behind stone wall in residential district, marked VS-17 panel, egress south to Checkpoint Bravo. Remarks: final attack heading three-one-zero to three-two-zero, guns only, danger close, time on target your discretion. How copy, over."
         };
-        duration = 37;
+        duration = 38;
         avatar = "user\rscMessage\bulldog.paa";
         object = "Bulldog";
     };
@@ -283,7 +295,7 @@ class mission_001_warlord
         customsubtitle[] = {
             0, "Hawg 2-1 copies. Target elevation two-zero feet, target grid 052055. Restrictions: danger close, friendlies three hundred meters southwest behind wall marked VS-17 panel, final attack heading three-one-zero to three-two-zero."
         };
-        duration = 20;
+        duration = 18;
         avatar = "user\rscMessage\hawg_up.paa";
         object = "Hawg";
     };
@@ -1067,3 +1079,71 @@ class mission_001_warlord
         avatar = "user\rscMessage\bulldog.paa";
         object = "Bulldog";
     };
+
+     class mission_082_warlord
+    {
+        name = "mission_082_warlord";
+        sound[] = { "USER\sounds\082_warlord.ogg", 2, 1, 100 };
+        titles[] = {0, ""};
+        customsubtitle[] = {
+            0, "All elements, Warlord. Mission complete. Hawg 2-1 is recovered, the IFF is secure, and the sector holds. Alpha, Wolfpack — that is a full-cycle operation: port security, aerial recce, personnel recovery. All tasks complete, all objectives met. RTB to the carrier. Both elements. Refit, refuel, debrief on arrival."
+        };
+        duration = 24;
+        avatar = "user\rscMessage\warlord.paa";
+        object = "Bulldog";
+    };
+
+     class mission_100_warlord
+    {
+        name = "mission_100_warlord";
+        sound[] = { "USER\sounds\100_warlord.ogg", 2, 1, 100 };
+        titles[] = {0, ""};
+        customsubtitle[] = {
+            0, "Warlord, send it"
+        };
+        duration = 3;
+        avatar = "user\rscMessage\warlord.paa";
+        object = "Bulldog";
+    };
+
+     class mission_101_warlord
+    {
+        name = "mission_101_warlord";
+        sound[] = { "USER\sounds\101_warlord.ogg", 2, 1, 100 };
+        titles[] = {0, ""};
+        customsubtitle[] = {
+            0, "Warlord, send traffic" 
+        };
+        duration = 3;
+        avatar = "user\rscMessage\warlord.paa";
+        object = "Bulldog";
+    };
+
+     class mission_102_warlord
+    {
+        name = "mission_102_warlord";
+        sound[] = { "USER\sounds\102_warlord.ogg", 2, 1, 100 };
+        titles[] = {0, ""};
+        customsubtitle[] = {
+            0, "Warlord, make it quick" 
+        };
+        duration = 3;
+        avatar = "user\rscMessage\warlord.paa";
+        object = "Bulldog";
+    };
+
+     class mission_103_warlord
+    {
+        name = "mission_103_warlord";
+        sound[] = { "USER\sounds\103_warlord.ogg", 2, 1, 100 };
+        titles[] = {0, ""};
+        customsubtitle[] = {
+            0, "Warlord copies. Stand by." 
+        };
+        duration = 3;
+        avatar = "user\rscMessage\warlord.paa";
+        object = "Bulldog";
+    };
+
+
+

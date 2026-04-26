@@ -4,6 +4,9 @@ class FA_Zeus {
 	class addZeusModules {
 		preInit = 1;
 	};
+	class transmission_00_copy;
+	class transmission_01_standby;
+	
 	class transmission_01_briefing;
 	class transmission_02_tasking;
 	class transmission_03_casrequest;
@@ -22,4 +25,6 @@ class FA_Zeus {
 	class transmission_16_pilotKIA;
 	class transmission_16_pilotRTB;
 	class transmission_17_finalTask;
+
+	class transmission_99_rtb;
 }
