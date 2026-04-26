@@ -5,6 +5,7 @@ class grad_ambient{
         class battlefield;
         class lunaxplosion;
         class suicideCar;
+        class addHiddenIED;
            class suicideCarCalculatePath;
            class suicideCarExplode;           
            class suicideCarInit;

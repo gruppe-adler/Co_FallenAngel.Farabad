@@ -69,12 +69,12 @@ if (isServer) then {
                         // ── Sound pool ────────────────────────────────────────────
                         private _onWater = surfaceIsWater _logicPos;
                         private _sound1  = format [
-                            "A3\Sounds_F\ambient\battlefield\battlefield_explosions%1.wss",
-                            floor (random 4) + 1
+                            "A3\Sounds_F\ambient\battlefield\battlefield_firefight%1.wss",
+                            floor (random 7) + 10
                         ];
                         private _sound2  = format [
                             "A3\Sounds_F\ambient\battlefield\battlefield_firefight%1.wss",
-                            floor (random 2) + 2
+                            floor (random 6) + 20
                         ];
 
                         private _pool = [];

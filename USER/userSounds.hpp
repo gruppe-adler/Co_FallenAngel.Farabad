@@ -3,6 +3,18 @@
 *   Ist in CfgSounds included.
 */
 
+class arabicsong1   {
+        name = "arabicsong1";
+        sound[] = { "USER\sounds\arabicsong1.ogg", 2, 1, 100 };
+        titles[] = {0, ""};
+    };
+
+class arabicsong2   {
+        name = "arabicsong2";
+        sound[] = { "USER\sounds\arabicsong2.ogg", 2, 1, 100 };
+        titles[] = {0, ""};
+    };
+
 class mission_001_warlord
     {
         name = "mission_001_warlord";

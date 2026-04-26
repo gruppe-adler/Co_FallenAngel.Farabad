@@ -27,7 +27,8 @@ private _offset = _aircraft selectionPosition [_selection, _lod];
 // FIRE — bright animated flames at the engine
 // Direct copy of BIKI Particles Tutorial "burning vehicle fire"
 // =====================================================================
-private _fire = "test_EmptyObjectForFireBig" createVehicleLocal [0, 0, 0];
+private _fire = "#particlesource" createVehicleLocal (position _aircraft);
+_fire setParticleClass "ObjectDestructionFire1";
 _fire attachTo [_aircraft, _offset];
 
 // =====================================================================
@@ -37,7 +38,7 @@ _fire attachTo [_aircraft, _offset];
 private _smoke = "#particlesource" createVehicleLocal [0, 0, 0];
 
 _smoke setParticleRandom [
-    8,                         // lifeTime variation
+    1,                         // lifeTime variation
     [0.5, 0.3, 0.5],            // position variation
     [0.5, 0.75, 0.5],           // moveVelocity variation
     0.5,                        // rotationVelocity variation
@@ -85,7 +86,7 @@ _smoke setParticleParams [
     0,                          // bounceOnSurface
     []                          // emissiveColor
 ];
-_smoke setDropInterval 0.08;
+_smoke setDropInterval 0.008;
 _smoke attachTo [_aircraft, _offset];
 
 // =====================================================================
@@ -94,7 +95,7 @@ _smoke attachTo [_aircraft, _offset];
 private _smoke2 = "#particlesource" createVehicleLocal [0, 0, 0];
 
 _smoke2 setParticleRandom [
-    5,                         // lifeTime variation
+    1,                         // lifeTime variation
     [0.5, 0.3, 0.5],            // position variation
     [0.5, 0.75, 0.5],           // moveVelocity variation
     0.5,                        // rotationVelocity variation
@@ -142,7 +143,7 @@ _smoke2 setParticleParams [
     0,                          // bounceOnSurface
     []                          // emissiveColor
 ];
-_smoke2 setDropInterval 0.05;
+_smoke2 setDropInterval 0.005;
 _smoke2 attachTo [_aircraft, _offset];
 
 // =====================================================================

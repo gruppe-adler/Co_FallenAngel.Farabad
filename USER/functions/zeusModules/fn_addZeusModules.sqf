@@ -63,6 +63,20 @@
 }] call zen_custom_modules_fnc_register;
 
 
+["Fallen Angel - Civilian IED", "Add Hidden IED", {
+	params ["_position", "_object"];
+
+    if (isNull _object) exitWith {
+        "no object selected" call CBA_fnc_notify;
+    };
+
+    "IED added" call CBA_fnc_notify;
+
+	[_object] remoteExec ["grad_ambient_fnc_addHiddenIED", 2];
+}] call zen_custom_modules_fnc_register;
+
+
+
 
 ["Fallen Angel - Transmissions", "01 Briefing", {
     params ["_position", "_object"];
