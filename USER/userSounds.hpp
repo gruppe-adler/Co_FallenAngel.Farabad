@@ -658,7 +658,7 @@ class mission_001_warlord
         sound[] = { "USER\sounds\050_bulldog_6.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "Neptune, Bulldog-6. No friendlies within half a klick of target. [calm] Fire, over."
+            0, "Neptune, Bulldog-6. No friendlies within half a klick of target. Fire, over."
         };
         duration = 6;
         avatar = "user\rscMessage\bulldog.paa";
