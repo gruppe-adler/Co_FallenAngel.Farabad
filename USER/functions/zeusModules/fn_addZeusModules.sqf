@@ -36,6 +36,26 @@
 	[] remoteExec ["FA_fnc_handleCrash", [0, -2] select isDedicated];
 }] call zen_custom_modules_fnc_register;
 
+["Fallen Angel - Ambient", "Mute Battlefield Sounds", {
+	params ["_position", "_object"];
+
+	GRAD_AMBIENT_BATTLEFIELD = false;
+    publicVariable "GRAD_AMBIENT_BATTLEFIELD";
+
+    "Sounds muted" call CBA_fnc_notify;
+}] call zen_custom_modules_fnc_register;
+
+["Fallen Angel - Ambient", "Start Battlefield Sounds", {
+	params ["_position", "_object"];
+
+	GRAD_AMBIENT_BATTLEFIELD = true;
+    publicVariable "GRAD_AMBIENT_BATTLEFIELD";
+
+    "Sounds started" call CBA_fnc_notify;
+}] call zen_custom_modules_fnc_register;
+
+
+
 ["Fallen Angel - Transmissions", "01 Briefing", {
     params ["_position", "_object"];
     [] remoteExec ["FA_fnc_transmission_01_briefing", [0, -2] select isDedicated];

@@ -8,7 +8,7 @@ class EditorData
 	toggles=9;
 	class ItemIDProvider
 	{
-		nextID=2235;
+		nextID=2240;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=333;
+		nextID=345;
 	};
 	class Camera
 	{
-		pos[]={5028.7715,165.33006,5840.6313};
-		dir[]={-0.43709013,-0.39883724,0.80615205};
-		up[]={-0.19010216,0.91702169,0.35061705};
-		aside[]={0.87909806,0,0.47664094};
+		pos[]={4527.0186,29.139999,5105.7109};
+		dir[]={0.31288275,-0.35043603,0.88277948};
+		up[]={0.11706912,0.93658602,0.33030322};
+		aside[]={0.94254905,3.1548552e-08,-0.33406675};
 	};
 };
 binarizationWanted=0;
@@ -4293,7 +4293,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=200;
+		items=204;
 		class Item0
 		{
 			dataType="Layer";
@@ -14011,7 +14011,7 @@ class Mission
 			init="if (isServer) then { createVehicle ['test_EmptyObjectForSmoke',getpos this,[],0,'can_collide']; };";
 			id=2221;
 			type="Logic";
-			atlOffset=3.3276701;
+			atlOffset=3.3276711;
 		};
 		class Item197
 		{
@@ -14082,6 +14082,54 @@ class Mission
 			name="smoke_3";
 			init="if (isServer) then { createVehicle ['test_EmptyObjectForSmoke',getpos this,[],0,'can_collide']; };";
 			id=2234;
+			type="Logic";
+		};
+		class Item200
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4743.7632,4.1399999,5290.3091};
+			};
+			name="battlefield_sounds_1";
+			init="[this] spawn grad_ambient_fnc_battlefield;";
+			id=2236;
+			type="Logic";
+		};
+		class Item201
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4500.2935,4.0167332,5170.0957};
+			};
+			name="battlefield_sounds_2";
+			init="[this] spawn grad_ambient_fnc_battlefield;";
+			id=2237;
+			type="Logic";
+		};
+		class Item202
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={5319.8677,4.1399999,4998.9595};
+			};
+			name="battlefield_sounds_3";
+			init="[this] spawn grad_ambient_fnc_battlefield;";
+			id=2238;
+			type="Logic";
+		};
+		class Item203
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4568.6948,4.1506801,4541.4155};
+			};
+			name="battlefield_sounds_4";
+			init="[this] spawn grad_ambient_fnc_battlefield;";
+			id=2239;
 			type="Logic";
 		};
 	};

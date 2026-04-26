@@ -60,8 +60,13 @@ private _textWidth = ctrlTextWidth _ctrlMessage;
 _ctrlMessage ctrlSetPosition [safeZoneW, safeZoneH - BOX_H/1.7, _textWidth, BOX_H];
 _ctrlMessage ctrlCommit 0;
 
-_ctrlMessage ctrlSetPosition [safeZoneW-_textWidth, safeZoneH - BOX_H/1.5, _textWidth, BOX_H];
-_ctrlMessage ctrlCommit _duration/2;
+if (safeZoneW < _textWidth) then {
+	_ctrlMessage ctrlSetPosition [safeZoneW-_textWidth, safeZoneH - BOX_H/1.5, _textWidth, BOX_H];
+	_ctrlMessage ctrlCommit _duration/2;
+} else {
+	_ctrlMessage ctrlSetPosition [0, safeZoneH - BOX_H/1.5, _textWidth, BOX_H];
+	_ctrlMessage ctrlCommit _duration/2;
+};
 
 private _ctrlImage = _display ctrlCreate ["RscPicture", -1, _ctrlGroup];
 _ctrlImage ctrlSetPosition [0, safeZoneH - BOX_H, BOX_W, BOX_H];
