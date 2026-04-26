@@ -42,12 +42,6 @@
 	["UK3CB_CSAT_B_O_Tigr", ASLToAGL _position] call FA_fnc_spawnReinforcements;
 }] call zen_custom_modules_fnc_register;
 
-["Fallen Angel - Reinforcements", "Unarmed Tigr", {
-	params ["_position", "_object"];
-
-	["UK3CB_CSAT_B_O_Tigr", ASLToAGL _position] call FA_fnc_spawnReinforcements;
-}] call zen_custom_modules_fnc_register;
-
 ["Fallen Angel - Reinforcements", "Unarmed Quilin", {
 	params ["_position", "_object"];
 
