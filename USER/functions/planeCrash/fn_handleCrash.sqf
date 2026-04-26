@@ -38,6 +38,13 @@ sleep 35.5;
 waitUntil { isTouchingGround _a10 };
 {
     deleteVehicle _x;    
+
 } forEach ([_a10] + _crew);
+
+missionNameSpace setVariable ["FA_pilotCrashed", true, true];
+
+{
+    _x hideObjectGlobal false;
+} forEach (allUnits inAreaArray trg_crashsite_opfor);
 
 [] call FA_fnc_transmission_08_downedpilot;

@@ -9,5 +9,5 @@
     [[_object, _text, _audioID, _duration, _avatar], "user\rscMessage\createMessageRsc.sqf"] remoteExec ["bis_fnc_execVM"];
     sleep (_duration + 1);
 } forEach [
-    selectRandom ["100_warlord", "101_warlord", "102_warlord"]
+    selectRandom ["mission_100_warlord", "mission_101_warlord", "mission_102_warlord"]
 ];
