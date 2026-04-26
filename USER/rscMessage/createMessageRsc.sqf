@@ -64,7 +64,7 @@ if (safeZoneW < _textWidth) then {
 	_ctrlMessage ctrlSetPosition [safeZoneW-_textWidth, safeZoneH - BOX_H/1.5, _textWidth, BOX_H];
 	_ctrlMessage ctrlCommit _duration/2;
 } else {
-	_ctrlMessage ctrlSetPosition [0, safeZoneH - BOX_H/1.5, _textWidth, BOX_H];
+	_ctrlMessage ctrlSetPosition [BOX_W*1.1, safeZoneH - BOX_H/1.5, _textWidth, BOX_H];
 	_ctrlMessage ctrlCommit _duration/2;
 };
 
