@@ -8,7 +8,7 @@ class EditorData
 	toggles=9;
 	class ItemIDProvider
 	{
-		nextID=2240;
+		nextID=2242;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4527.0186,29.139999,5105.7109};
-		dir[]={0.31288275,-0.35043603,0.88277948};
-		up[]={0.11706912,0.93658602,0.33030322};
-		aside[]={0.94254905,3.1548552e-08,-0.33406675};
+		pos[]={8107.2056,186.85985,6866.3506};
+		dir[]={-0.45479819,-0.42420098,-0.78307861};
+		up[]={-0.213044,0.90556812,-0.36682248};
+		aside[]={-0.86473745,0,0.50222421};
 	};
 };
 binarizationWanted=0;
@@ -4293,7 +4293,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=204;
+		items=205;
 		class Item0
 		{
 			dataType="Layer";
@@ -14131,6 +14131,24 @@ class Mission
 			init="[this] spawn grad_ambient_fnc_battlefield;";
 			id=2239;
 			type="Logic";
+		};
+		class Item204
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8091.4751,175.15726,6834.416};
+				angles[]={0.03047345,0,6.2375097};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="mine_entry";
+			};
+			id=2241;
+			type="Sign_Arrow_Large_Green_F";
+			atlOffset=1.5258789e-05;
 		};
 	};
 	class Connections

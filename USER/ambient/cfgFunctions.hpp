@@ -3,6 +3,7 @@ class grad_ambient{
         file = USER\ambient;
 
         class battlefield;
+        class lunaxplosion;
         class suicideCar;
            class suicideCarCalculatePath;
            class suicideCarExplode;           

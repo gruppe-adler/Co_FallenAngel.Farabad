@@ -56,6 +56,14 @@
 
 
 
+["Fallen Angel - Mine Entry", "Mine Entry Explosion", {
+	params ["_position", "_object"];
+
+	[] remoteExec ["grad_ambient_fnc_lunaxplosion", 2];
+}] call zen_custom_modules_fnc_register;
+
+
+
 ["Fallen Angel - Transmissions", "01 Briefing", {
     params ["_position", "_object"];
     [] remoteExec ["FA_fnc_transmission_01_briefing", [0, -2] select isDedicated];
