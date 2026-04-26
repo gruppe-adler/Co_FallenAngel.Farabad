@@ -7,7 +7,7 @@
     private _object = getText (missionConfigFile >> "CfgSounds" >> _audioID >> "object");
 
     [[_object, _text, _audioID, _duration, _avatar], "user\rscMessage\createMessageRsc.sqf"] remoteExec ["bis_fnc_execVM"];
-    sleep (_duration + 1);
+    sleep (_duration + 4);
 } forEach [
     "mission_012_bulldog_6", 
     "mission_013_warlord"

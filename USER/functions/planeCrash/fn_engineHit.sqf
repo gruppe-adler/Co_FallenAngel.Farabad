@@ -28,8 +28,25 @@ private _offset = _aircraft selectionPosition [_selection, _lod];
 // Direct copy of BIKI Particles Tutorial "burning vehicle fire"
 // =====================================================================
 private _fire = "#particlesource" createVehicleLocal (position _aircraft);
-_fire setParticleClass "ObjectDestructionFire1";
+// _fire setParticleClass "ObjectDestructionFire1";
+_fire setParticleParams [["\A3\data_f\ParticleEffects\Universal\Universal",16,10,32,1],"","Billboard",1,2.3,[0,0,0],[0,1,0],0,0.045,0.04,0.05,[1.98,0.315],[[1,1,1,-1]],[0.5,1],0,0,"","","",0,false,0,[]];
+_fire setParticleRandom [0.5,[0.3,0.3,0.3],[0.1,0.5,0.1],10,0.5,[0.1,0.1,0.1,0],0,0,0.1,0];
+_fire setDropInterval 0.005;
 _fire attachTo [_aircraft, _offset];
+
+private _fire2 = "#particlesource" createVehicleLocal (position _aircraft);
+// _fire2 setParticleClass "ObjectDestructionFire2";
+_fire2 setParticleParams [["\A3\data_f\ParticleEffects\Universal\Universal",16,10,32,1],"","Billboard",1,2.3,[0,0,0],[0,1,0],0,0.045,0.04,0.05,[3,0],[[1,1,1,-1]],[0.5,1],0,0,"","","",0,false,0,[]];
+_fire2 setParticleRandom [0.5,[0.3,0.3,0.3],[0.1,0.5,0.1],10,0.5,[0.1,0.1,0.1,0],0,0,0.1,0];
+_fire2 setDropInterval 0.015;
+_fire2 attachTo [_aircraft, _offset];
+
+private _sparks = "#particlesource" createVehicleLocal (position _aircraft);
+// _sparks setParticleClass "ObjectDestructionSparks";
+_sparks setParticleParams [["\A3\data_f\cl_fire",1,0,1,1],"","Billboard",1,12.3094,[0,0,0],[0,0,0],1,0.005,0.0042,0.05,[5, 0],[[1,1,1,1],[0,0,0,0]],[0,1],0.3,0.3,"","","",0,false,0,[]];
+_sparks setParticleRandom [0.8,[0,0,0],[0.1,0.1,0.1],0,0.01,[0,0,0,0],0,0,0,0];
+_sparks setDropInterval 0;
+_sparks attachTo [_aircraft, _offset];
 
 // =====================================================================
 // SMOKE — dark trail rising from the engine (lighter grey layer)
@@ -38,7 +55,7 @@ _fire attachTo [_aircraft, _offset];
 private _smoke = "#particlesource" createVehicleLocal [0, 0, 0];
 
 _smoke setParticleRandom [
-    1,                         // lifeTime variation
+    8,                         // lifeTime variation
     [0.5, 0.3, 0.5],            // position variation
     [0.5, 0.75, 0.5],           // moveVelocity variation
     0.5,                        // rotationVelocity variation
@@ -86,7 +103,7 @@ _smoke setParticleParams [
     0,                          // bounceOnSurface
     []                          // emissiveColor
 ];
-_smoke setDropInterval 0.008;
+_smoke setDropInterval 0.005;
 _smoke attachTo [_aircraft, _offset];
 
 // =====================================================================
@@ -95,7 +112,7 @@ _smoke attachTo [_aircraft, _offset];
 private _smoke2 = "#particlesource" createVehicleLocal [0, 0, 0];
 
 _smoke2 setParticleRandom [
-    1,                         // lifeTime variation
+    5,                         // lifeTime variation
     [0.5, 0.3, 0.5],            // position variation
     [0.5, 0.75, 0.5],           // moveVelocity variation
     0.5,                        // rotationVelocity variation
@@ -143,7 +160,7 @@ _smoke2 setParticleParams [
     0,                          // bounceOnSurface
     []                          // emissiveColor
 ];
-_smoke2 setDropInterval 0.005;
+_smoke2 setDropInterval 0.003;
 _smoke2 attachTo [_aircraft, _offset];
 
 // =====================================================================
@@ -155,10 +172,10 @@ _smoke2 attachTo [_aircraft, _offset];
         !alive _plane
     },
     {
-        params ["_plane", "_fire", "_smoke", "_smoke2"];
-        { if (!isNull _x) then { deleteVehicle _x } } forEach [_fire, _smoke, _smoke2];
+        params ["_plane", "_fire", "_fire2", "_sparks", "_smoke", "_smoke2"];
+        { if (!isNull _x) then { deleteVehicle _x } } forEach [_fire, _fire2, _sparks, _smoke, _smoke2];
     },
-    [_aircraft, _fire, _smoke, _smoke2]
+    [_aircraft, _fire, _fire2, _sparks, _smoke, _smoke2]
 ] call CBA_fnc_waitUntilAndExecute;
 
 [_fire, _smoke, _smoke2]

@@ -30,10 +30,16 @@
 };
 
 
-["Fallen Angel", "Init A10 crash", {
+["Fallen Angel - A10 Crash", "Init A10 crash", {
 	params ["_position", "_object"];
 
 	[] remoteExec ["FA_fnc_handleCrash", [0, -2] select isDedicated];
+}] call zen_custom_modules_fnc_register;
+
+["Fallen Angel - VLS Attack", "Init VLS Attack", {
+	params ["_position", "_object"];
+
+	[] remoteExec ["FA_fnc_handleVLSAttack", [0, -2] select isDedicated];
 }] call zen_custom_modules_fnc_register;
 
 ["Fallen Angel - Ambient", "Mute Battlefield Sounds", {
