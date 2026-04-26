@@ -13,5 +13,6 @@
    "mission_078_bulldog_6", 
    "mission_079_bulldog_6",
     "mission_080_bulldog_6", 
-    "mission_081_bulldog_6"
+    "mission_081_bulldog_6",
+    "mission_081b_warlord"
 ];

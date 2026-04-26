@@ -158,7 +158,7 @@ class mission_001_warlord
         customsubtitle[] = {
             0, "Wolfpack, Warlord. Good copy. Vessel inspected, nothing actionable found. Doesn't mean the intel was wrong — means we didn't find it, or it wasn't there. Either way, you did your job.  Break off and RTB to the carrier. Stand by for further tasking on arrival. Warlord out."
         };
-        duration = 6;
+        duration = 18;
         avatar = "user\rscMessage\warlord.paa";
         object = "Warlord";
     };
@@ -884,7 +884,7 @@ class mission_001_warlord
         sound[] = { "USER\sounds\066_hawg_2_1.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, " I have a problem. I'm sitting in the vehicle approximately fifty meters short of the exit. I can see hostiles dug in at the mouth, fire-team plus, at least one crew-served. They figured out where the tunnel comes out. [frustrated] I cannot punch through alone."
+            0, " I have a problem. I'm sitting in the vehicle approximately fifty meters short of the exit. I can see hostiles dug in at the mouth, fire-team plus, at least one crew-served. They figured out where the tunnel comes out. I cannot punch through alone."
         };
         duration = 18;
         avatar = "user\rscMessage\hawg_down.paa";
@@ -897,7 +897,7 @@ class mission_001_warlord
         sound[] = { "USER\sounds\067_hawg_2_1.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "[desperate] If anyone is in range, I need a pickup at my beacon. Going dark again. Hawg 2-1, out."
+            0, "If anyone is in range, I need a pickup at my beacon. Going dark again. Hawg 2-1, out."
         };
         duration = 7;
         avatar = "user\rscMessage\hawg_down.paa";
@@ -1040,7 +1040,7 @@ class mission_001_warlord
         sound[] = { "USER\sounds\078_bulldog_6.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "Bulldog is decisively engaged in the central district of Farabad. SIGINT just passed me a reinforced enemy platoon maneuvering on my southern flank. If they set up, they will roll us up. [frustrated] I do not have the combat power to refuse my flank and hold the fight in the north."
+            0, "Bulldog is decisively engaged in the central district of Farabad. SIGINT just passed me a reinforced enemy platoon maneuvering on my southern flank. If they set up, they will roll us up. I do not have the combat power to refuse my flank and hold the fight in the north."
         };
         duration = 16;
         avatar = "user\rscMessage\bulldog.paa";
@@ -1086,6 +1086,19 @@ class mission_001_warlord
         object = "Bulldog";
     };
 
+    class mission_081b_warlord
+    {
+        name = "mission_081b_warlord";
+        sound[] = { "USER\sounds\081b_warlord.ogg", 2, 1, 100 };
+        titles[] = {0, ""};
+        customsubtitle[] = {
+            0, " Bulldog-6, Warlord. Copy all. Wolfpack — you have your tasking. Get into that sewer, push north, and hit them before they set. Bulldog holds — you make sure of it."
+        };
+        duration = 9;
+        avatar = "user\rscMessage\warlord.paa";
+        object = "Warlord";
+    };
+
      class mission_082_warlord
     {
         name = "mission_082_warlord";
@@ -1096,7 +1109,7 @@ class mission_001_warlord
         };
         duration = 24;
         avatar = "user\rscMessage\warlord.paa";
-        object = "Bulldog";
+        object = "Warlord";
     };
 
      class mission_100_warlord
@@ -1109,7 +1122,7 @@ class mission_001_warlord
         };
         duration = 3;
         avatar = "user\rscMessage\warlord.paa";
-        object = "Bulldog";
+        object = "Warlord";
     };
 
      class mission_101_warlord
@@ -1122,7 +1135,7 @@ class mission_001_warlord
         };
         duration = 3;
         avatar = "user\rscMessage\warlord.paa";
-        object = "Bulldog";
+        object = "Warlord";
     };
 
      class mission_102_warlord
@@ -1135,7 +1148,7 @@ class mission_001_warlord
         };
         duration = 3;
         avatar = "user\rscMessage\warlord.paa";
-        object = "Bulldog";
+        object = "Warlord";
     };
 
      class mission_103_warlord
@@ -1148,7 +1161,7 @@ class mission_001_warlord
         };
         duration = 3;
         avatar = "user\rscMessage\warlord.paa";
-        object = "Bulldog";
+        object = "Warlord";
     };
 
 
