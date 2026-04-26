@@ -42,10 +42,22 @@
 	["UK3CB_CSAT_B_O_Tigr", ASLToAGL _position] call FA_fnc_spawnReinforcements;
 }] call zen_custom_modules_fnc_register;
 
-["Fallen Angel - Reinforcements", "Unarmed Quilin", {
+["Fallen Angel - Reinforcements", "Unarmed Offroad", {
 	params ["_position", "_object"];
 
-	["UK3CB_CSAT_B_O_LSV_02", ASLToAGL _position] call FA_fnc_spawnReinforcements;
+	["UK3CB_CSAT_B_O_Offroad_Unarmed", ASLToAGL _position] call FA_fnc_spawnReinforcements;
+}] call zen_custom_modules_fnc_register;
+
+["Fallen Angel - Reinforcements", "Unarmed Kamaz", {
+	params ["_position", "_object"];
+
+	["UK3CB_CSAT_B_O_Kamaz_Covered", ASLToAGL _position] call FA_fnc_spawnReinforcements;
+}] call zen_custom_modules_fnc_register;
+
+["Fallen Angel - Reinforcements", "Unarmed GAZ-66", {
+	params ["_position", "_object"];
+
+	["UK3CB_CSAT_B_O_Gaz66_Covered", ASLToAGL _position] call FA_fnc_spawnReinforcements;
 }] call zen_custom_modules_fnc_register;
 
 ["Fallen Angel - Reinforcements", "Unarmed UAZ", {

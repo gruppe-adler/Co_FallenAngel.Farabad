@@ -8,5 +8,10 @@ private _unitTypes = ["UK3CB_CSAT_B_O_AT", "UK3CB_CSAT_B_O_GL", "UK3CB_CSAT_B_O_
 private _emptySeats = _veh emptyPositions "Cargo";
 
 for "_i" from 1 to _emptySeats do {
-	_group createUnit [selectRandom _unitTypes, [0,0,0], [], 0, "CARGO"];
+	private _unit = _group createUnit [selectRandom _unitTypes, [0,0,0], [], 0, "CARGO"];
+
+	if ((objectParent _unit) isNotEqualTo _veh) then {
+		_unit assignAsCargo _veh;
+		_unit moveInCargo _veh;
+	};
 };
