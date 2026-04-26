@@ -30,6 +30,36 @@
 };
 
 
+["Fallen Angel - Reinforcements", "Unarmed Vodnik", {
+	params ["_position", "_object"];
+
+	["UK3CB_CSAT_B_O_GAZ_Vodnik", ASLToAGL _position] call FA_fnc_spawnReinforcements;
+}] call zen_custom_modules_fnc_register;
+
+["Fallen Angel - Reinforcements", "Unarmed Tigr", {
+	params ["_position", "_object"];
+
+	["UK3CB_CSAT_B_O_Tigr", ASLToAGL _position] call FA_fnc_spawnReinforcements;
+}] call zen_custom_modules_fnc_register;
+
+["Fallen Angel - Reinforcements", "Unarmed Tigr", {
+	params ["_position", "_object"];
+
+	["UK3CB_CSAT_B_O_Tigr", ASLToAGL _position] call FA_fnc_spawnReinforcements;
+}] call zen_custom_modules_fnc_register;
+
+["Fallen Angel - Reinforcements", "Unarmed Quilin", {
+	params ["_position", "_object"];
+
+	["UK3CB_CSAT_B_O_LSV_02", ASLToAGL _position] call FA_fnc_spawnReinforcements;
+}] call zen_custom_modules_fnc_register;
+
+["Fallen Angel - Reinforcements", "Unarmed UAZ", {
+	params ["_position", "_object"];
+
+	["UK3CB_CSAT_B_O_UAZ_Closed", ASLToAGL _position] call FA_fnc_spawnReinforcements;
+}] call zen_custom_modules_fnc_register;
+
 ["Fallen Angel - A10 Crash", "Init A10 crash", {
 	params ["_position", "_object"];
 
