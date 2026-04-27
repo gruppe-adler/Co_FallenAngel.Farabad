@@ -13,6 +13,5 @@
     "mission_036_warlord", 
     "mission_037_warlord",
     "mission_038_warlord", 
-    "mission_039_warlord", 
-    "mission_040_warlord"
+    "mission_039_warlord"
 ];

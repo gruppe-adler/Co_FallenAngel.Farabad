@@ -16,4 +16,8 @@ sleep 2;
 
     _vehicle setSpeedMode "FULL";
     _vehicle setDriveOnPath _path;
+
+    
 } forEach [pilot_car];
+
+[driver pilot_car, "Hawg"] remoteExec ["setIdentity", 0, driver pilot_car];
