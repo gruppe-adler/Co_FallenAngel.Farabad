@@ -93,7 +93,7 @@ if (_sound == "none") then {
 		};
 	};
 } else {
-	if (typeName _unit != "STRING" && {!isNull _unit} && {player distance _unit < 10} && {vehicle player == player} || !isNull remoteControlled player) then {
+	if (typeName _unit != "STRING" && {!isNull _unit} && {player distance _unit < 10} && {vehicle player == player}) then {
 		if (isGameFocused) then {
 			_soundID = _unit say3d [_sound, 150];
 			_unit setRandomLip true;
