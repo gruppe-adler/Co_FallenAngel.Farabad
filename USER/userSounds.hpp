@@ -868,7 +868,7 @@ class mission_001_warlord
         customsubtitle[] = {
             0, "I'm out of the mine. Couldn't transmit underground, rock killed the signal."
         };
-        duration = 12;
+        duration = 4;
         avatar = "user\rscMessage\hawg_down.paa";
         object = "Hawg";
     };

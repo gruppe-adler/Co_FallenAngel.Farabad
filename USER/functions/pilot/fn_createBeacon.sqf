@@ -1,4 +1,4 @@
-params ["_pilot", ["_pulseMaxSize", 75], ["_pulsePeriod", 1]];
+params ["_pilot", ["_pulseMaxSize", 100], ["_pulsePeriod", 1.5]];
 
 private _marker = createMarkerLocal ["fa_pilotBeacon", getPosATL _pilot];
 "fa_pilotBeacon" setMarkerShapeLocal "ELLIPSE";

@@ -9,9 +9,11 @@
     [[_object, _text, _audioID, _duration, _avatar], "user\rscMessage\createMessageRsc.sqf"] remoteExec ["bis_fnc_execVM"];
     sleep (_duration + 1);
 } forEach [
-   "mission_063_hawg_2_1", 
-   "mission_064_hawg_2_1", 
-   "mission_065_hawg_2_1",
+    "mission_063_hawg_2_1", 
+    "mission_064_hawg_2_1", 
+    "mission_065_hawg_2_1",
     "mission_066_hawg_2_1", 
     "mission_067_hawg_2_1"
 ];
+
+[pilot_carD] remoteExec ["FA_fnc_createBeacon", [0, -2] select isDedicated, pilot_carD];

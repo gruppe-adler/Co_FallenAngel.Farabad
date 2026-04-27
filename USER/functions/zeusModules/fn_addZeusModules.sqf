@@ -187,8 +187,7 @@
 
 ["Fallen Angel - Mission Flow", "07b Convoy Start", {
     params ["_position", "_object"];
-    ["USER\scripts\convoy.sqf"] remoteExec ["BIS_fnc_execVM", 2];
-    [] remoteExec ["FA_fnc_transmission_15_paniccall", 2];
+    [] remoteExec ["FA_fnc_initChase", 2];
 }] call zen_custom_modules_fnc_register;
 
 
