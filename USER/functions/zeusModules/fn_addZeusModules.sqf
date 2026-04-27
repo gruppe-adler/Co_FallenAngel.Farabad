@@ -213,12 +213,28 @@
     [] remoteExec ["FA_fnc_transmission_18_localRescue", 2];
 }] call zen_custom_modules_fnc_register;
 
+["Fallen Angel - Mission Flow", "13 Secondary Objective: Local rescue Success", {
+    params ["_position", "_object"];
+    [] remoteExec ["FA_fnc_transmission_19_localRescueSuccess", 2];
+}] call zen_custom_modules_fnc_register;
+
+["Fallen Angel - Mission Flow", "13 Secondary Objective: Local rescue Failed", {
+    params ["_position", "_object"];
+    [] remoteExec ["FA_fnc_transmission_20_localRescueFailed", 2];
+}] call zen_custom_modules_fnc_register;
 
 
 ["Fallen Angel - Mission Flow", "13 Secondary Objective: Refinery Attack", {
     params ["_position", "_object"];
-    [] remoteExec ["FA_fnc_transmission_18_refineryAttack", 2];
+    [] remoteExec ["FA_fnc_transmission_21_refineryAttack", 2];
 }] call zen_custom_modules_fnc_register;
+
+["Fallen Angel - Mission Flow", "14 Secondary Objective: Refinery Attack Success", {
+    params ["_position", "_object"];
+    [] remoteExec ["FA_fnc_transmission_22_refinerySuccess, 2];
+}] call zen_custom_modules_fnc_register;
+
+
 
 
 ["Fallen Angel - Transmissions", "99 MISSION COMPLETE", {

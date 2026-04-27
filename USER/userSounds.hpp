@@ -1134,6 +1134,45 @@ class mission_001_warlord
     object = "Warlord";
 };
 
+    class mission_091_warlord
+{
+    name = "mission_091_warlord";
+    sound[] = { "USER\sounds\091_warlord.ogg", 2, 1, 100 };
+    titles[] = {0, ""};
+    customsubtitle[] = {
+        0, "Wolfpack, Warlord. We have a situation developing independent of your current tasking. Local informant, grid 038100. He has been providing HUMINT to our network for the past six months. He is being threatened — situation is deteriorating fast. Your task: extract him from grid 038100 and ferry him to our carrier. Keep him alive. If that man dies, we lose the network. Move now — he does not have time. Warlord out. "
+    };
+    duration = 30;
+    avatar = "user\rscMessage\warlord.paa";
+    object = "Warlord";
+};
+
+   class mission_091b_warlord
+{
+    name = "mission_091b_warlord";
+    sound[] = { "USER\sounds\091b_warlord.ogg", 2, 1, 100 };
+    titles[] = {0, ""};
+    customsubtitle[] = {
+        0, "Wolfpack, Warlord. Good copy — informant is secure. That man is the reason we had eyes in this region. You kept the network alive today. Well done. Warlord out."
+    };
+    duration = 30;
+    avatar = "user\rscMessage\warlord.paa";
+    object = "Warlord";
+};
+
+  class mission_091c_warlord
+{
+    name = "mission_091c_warlord";
+    sound[] = { "USER\sounds\091c_warlord.ogg", 2, 1, 100 };
+    titles[] = {0, ""};
+    customsubtitle[] = {
+        0, "Wolfpack, Warlord. That is on all of us. He trusted this network and we could not get to him in time. Pull back and return to the USS Freedom. We will deal with the intelligence gap later. Warlord out. "
+    };
+    duration = 30;
+    avatar = "user\rscMessage\warlord.paa";
+    object = "Warlord";
+};
+
 
     class mission_092_warlord
 {
@@ -1148,6 +1187,18 @@ class mission_001_warlord
     object = "Warlord";
 };
 
+    class mission_092b_warlord
+{
+    name = "mission_092b_warlord";
+    sound[] = { "USER\sounds\092b_warlord.ogg", 2, 1, 100 };
+    titles[] = {0, ""};
+    customsubtitle[] = {
+        0, "Wolfpack, Warlord. Site secure — good work. Jazira is back in friendly hands. Command has a security element inbound to hold the facility. Your job there is done. Break off and return to the USS Freedom. Warlord out."
+    };
+    duration = 36;
+    avatar = "user\rscMessage\warlord.paa";
+    object = "Warlord";
+};
 
 
      class mission_100_warlord
