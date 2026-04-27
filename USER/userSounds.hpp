@@ -1120,20 +1120,6 @@ class mission_001_warlord
         object = "Warlord";
     };
 
-
-    class mission_091_warlord
-{
-    name = "mission_091_warlord";
-    sound[] = { "USER\sounds\091_warlord.ogg", 2, 1, 100 };
-    titles[] = {0, ""};
-    customsubtitle[] = {
-        0, "Wolfpack, Warlord. We have a situation developing independent of your current tasking. Local informant, grid 038100. He has been providing HUMINT to our network for the past six months. He is being threatened — situation is deteriorating fast. Your task: extract him from grid 038100 and ferry him to our carrier. Keep him alive. If that man dies, we lose the network. Move now — he does not have time. Warlord out. "
-    };
-    duration = 30;
-    avatar = "user\rscMessage\warlord.paa";
-    object = "Warlord";
-};
-
     class mission_091_warlord
 {
     name = "mission_091_warlord";

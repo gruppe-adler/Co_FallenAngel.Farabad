@@ -231,7 +231,7 @@
 
 ["Fallen Angel - Mission Flow", "14 Secondary Objective: Refinery Attack Success", {
     params ["_position", "_object"];
-    [] remoteExec ["FA_fnc_transmission_22_refinerySuccess, 2];
+    [] remoteExec ["FA_fnc_transmission_22_refinerySuccess", 2];
 }] call zen_custom_modules_fnc_register;
 
 
