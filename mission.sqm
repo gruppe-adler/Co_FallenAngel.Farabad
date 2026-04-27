@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8088.9268,192.25172,6868.0396};
-		dir[]={0.38672516,-0.63273895,-0.67089307};
-		up[]={0.31599581,0.77436316,-0.54819036};
-		aside[]={-0.86637491,-4.9782102e-08,-0.49940744};
+		pos[]={6733.3032,80.547287,6576.2886};
+		dir[]={-0.63117605,-0.6844486,0.36499622};
+		up[]={-0.59252012,0.72905147,0.34264168};
+		aside[]={0.50061953,-1.4108809e-06,0.86571246};
 	};
 };
 binarizationWanted=0;
@@ -19581,7 +19581,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="crashsite_opfor";
-			state=2;
 			class Entities
 			{
 				items=8;
@@ -19822,7 +19821,6 @@ class Mission
 						};
 					};
 					id=2604;
-					atlOffset=35;
 				};
 				class Item7
 				{
@@ -19960,11 +19958,11 @@ class Mission
 						};
 					};
 					id=2609;
-					atlOffset=35;
+					atlOffset=-0.0094795227;
 				};
 			};
 			id=2614;
-			atlOffset=-15.741106;
+			atlOffset=0.0060997009;
 		};
 		class Item346
 		{
