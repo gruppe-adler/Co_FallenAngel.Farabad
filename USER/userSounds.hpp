@@ -879,7 +879,7 @@ class mission_001_warlord
         sound[] = { "USER\sounds\065_hawg_2_1.ogg", 2, 1, 100 };
         titles[] = {0, ""};
         customsubtitle[] = {
-            0, "Found an abandoned civilian pickup in one of the service tunnels, hot-wired it, drove through the mine system. My GPS beacon pings grid 036085."
+            0, "Found an abandoned civilian pickup in one of the service tunnels, hot-wired it, drove through the mine system."
         };
         duration = 12;
         avatar = "user\rscMessage\hawg_down.paa";
