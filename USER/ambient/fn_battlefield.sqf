@@ -42,7 +42,7 @@ while { true } do {
                 private _vol = [0.1, 0.5, 1.0, 1.5, 2.0] select
                     ([250, 500, 800, 1000, 1e9] findIf { _dist <= _x });
 
-                _vol = _vol * 0.25;
+                _vol = _vol * 0.19;
 
                 playSound3D [
                     format ["A3\Sounds_F\ambient\battlefield\battlefield_firefight%1.wss", floor random 4 + 1],
