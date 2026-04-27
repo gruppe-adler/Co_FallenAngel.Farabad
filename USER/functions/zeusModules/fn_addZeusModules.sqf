@@ -109,6 +109,9 @@
 
 
 
+
+
+
 ["Fallen Angel - Mine Entry", "Mine Entry Explosion", {
 	params ["_position", "_object"];
 
@@ -191,14 +194,20 @@
 }] call zen_custom_modules_fnc_register;
 
 
+
+
 ["Fallen Angel - Mission Flow", "09 Pilot KIA", {
     params ["_position", "_object"];
     [] remoteExec ["FA_fnc_transmission_16_pilotKIA", 2];
+
+    missionNamespace setVariable ["FA_pilotBeaconActive", false, true];
 }] call zen_custom_modules_fnc_register;
 
 ["Fallen Angel - Mission Flow", "10 Pilot RTB", {
     params ["_position", "_object"];
     [] remoteExec ["FA_fnc_transmission_16_pilotRTB", 2];
+
+     missionNamespace setVariable ["FA_pilotBeaconActive", false, true];
 }] call zen_custom_modules_fnc_register;
 
 ["Fallen Angel - Mission Flow", "11 Final Tasking", {
