@@ -6,7 +6,7 @@
 
 if (!isServer) exitWith {};
 
-params [["_source", objNull], ["_radius", 350]];
+params [["_source", objNull], ["_radius", 600]];
 
 private _effRadius = if (_radius > 100) then { _radius / 25 } else { _radius };
 private _minDist   = 150;
