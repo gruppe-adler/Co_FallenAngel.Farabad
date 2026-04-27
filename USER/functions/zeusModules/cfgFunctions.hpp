@@ -29,6 +29,8 @@ class FA_Zeus {
 	class transmission_16_pilotKIA;
 	class transmission_16_pilotRTB;
 	class transmission_17_finalTask;
+	class transmission_18_localRescue;
+	class transmission_19_refineryAttack;
 
 	class transmission_99_rtb;
 }

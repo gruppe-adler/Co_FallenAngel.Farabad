@@ -1120,6 +1120,36 @@ class mission_001_warlord
         object = "Warlord";
     };
 
+
+    class mission_091_warlord
+{
+    name = "mission_091_warlord";
+    sound[] = { "USER\sounds\091_warlord.ogg", 2, 1, 100 };
+    titles[] = {0, ""};
+    customsubtitle[] = {
+        0, "Wolfpack, Warlord. We have a situation developing independent of your current tasking. Local informant, grid 038100. He has been providing HUMINT to our network for the past six months. He is being threatened — situation is deteriorating fast. Your task: extract him from grid 038100 and ferry him to our carrier. Keep him alive. If that man dies, we lose the network. Move now — he does not have time. Warlord out. "
+    };
+    duration = 30;
+    avatar = "user\rscMessage\warlord.paa";
+    object = "Warlord";
+};
+
+
+    class mission_092_warlord
+{
+    name = "mission_092_warlord";
+    sound[] = { "USER\sounds\092_warlord.ogg", 2, 1, 100 };
+    titles[] = {0, ""};
+    customsubtitle[] = {
+        0, "Wolfpack, Warlord. Secondary tasking. Jazira Oil Refinery, grid 023061, west of Farabad. Enemy elements have occupied the facility. Could be a staging point, could be leverage — either way we cannot leave them there. Your task: enter the refinery, clear all enemy combatants, and secure the site. Do not damage the infrastructure — command wants that facility operational. Watch your angles in there. Refineries are tight, lots of cover. Expect contact at close range. Confirm when the site is clear. Warlord out."
+    };
+    duration = 36;
+    avatar = "user\rscMessage\warlord.paa";
+    object = "Warlord";
+};
+
+
+
      class mission_100_warlord
     {
         name = "mission_100_warlord";

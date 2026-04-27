@@ -208,6 +208,19 @@
 }] call zen_custom_modules_fnc_register;
 
 
+["Fallen Angel - Mission Flow", "12 Secondary Objective: Local rescue", {
+    params ["_position", "_object"];
+    [] remoteExec ["FA_fnc_transmission_18_localRescue", 2];
+}] call zen_custom_modules_fnc_register;
+
+
+
+["Fallen Angel - Mission Flow", "13 Secondary Objective: Refinery Attack", {
+    params ["_position", "_object"];
+    [] remoteExec ["FA_fnc_transmission_18_refineryAttack", 2];
+}] call zen_custom_modules_fnc_register;
+
+
 ["Fallen Angel - Transmissions", "99 MISSION COMPLETE", {
     params ["_position", "_object"];
     [] remoteExec ["FA_fnc_transmission_99_rtb", 2];
