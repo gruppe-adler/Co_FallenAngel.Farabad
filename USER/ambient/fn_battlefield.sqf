@@ -70,15 +70,10 @@ if (isServer) then {
                         private _onWater = surfaceIsWater _logicPos;
                         private _sound1  = format [
                             "A3\Sounds_F\ambient\battlefield\battlefield_firefight%1.wss",
-                            floor (random 7) + 10
-                        ];
-                        private _sound2  = format [
-                            "A3\Sounds_F\ambient\battlefield\battlefield_firefight%1.wss",
-                            floor (random 6) + 20
+                            floor (random 4) + 1
                         ];
 
                         private _pool = [];
-                        if (!_onWater)                    then { _pool pushBack _sound2 };
                         if (random 1 > 0.5 || _onWater)  then { _pool pushBack _sound1 };
                         if (count _pool == 0)             then { _pool pushBack _sound1 };
 
@@ -89,7 +84,7 @@ if (isServer) then {
 
                         playSound3D [_sound, _logic, false, getPosASL _logic, _volFinal, _pitch, 0];
 
-                        sleep (random 1 + random 14);
+                        sleep (random 14 + random 14);
                     };
                 }; // spawn
 
